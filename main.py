@@ -13,7 +13,7 @@ labels = Path('labels.txt').read_text('utf8').split()
 print('labels:', labels)
 
 OTREE_SERVER = "http://localhost:8000"
-ROOM_NAME = 'econ101'
+ROOM_NAME = 'test_room'
 
 
 def homepage(request: Request):
