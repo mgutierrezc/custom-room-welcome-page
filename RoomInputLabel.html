@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h2>
-    Welcome
-</h2>
+<h1>
+    Bienvenido
+</h1>
 <form method="get">
-    <label for="participant_label">Please enter your participant label.</label>
-    <br/>
+    <label for="participant_label"><h3>Por favor, ingresa tu etiqueta de participante.</h3></label>
     <input type="text" id="participant_label"
            name="participant_label" class="form-control" value="{{ label }}"/>
     <br/>
     {% if wrong_label %}
-    <p style="color: red">This participant label was not found; please try again.</p>
+        <p style="color: red; font-size: 120%;">Esta etiqueta es inválida. Por favor, corrija los errores y vuelva a intentarlo.</p>
     {% endif %}
 
     <p>
-        <button>Next</button>
+        <button><h4>Siguiente</h4></button>
     </p>
 
 </form>
