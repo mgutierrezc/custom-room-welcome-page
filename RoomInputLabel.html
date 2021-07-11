@@ -5,12 +5,12 @@
     Bienvenido
 </h1>
 <form method="get">
-    <label for="participant_label"><h3>Por favor, ingresa tu etiqueta de participante.</h3></label>
+    <label for="participant_label"><h3>Por favor, ingrese su código de analista (por ej, 12345)</h3></label>
     <input type="text" id="participant_label"
            name="participant_label" class="form-control" value="{{ label }}"/>
     <br/>
     {% if wrong_label %}
-        <p style="color: red; font-size: 120%;">Esta etiqueta es inválida. Por favor, corrija los errores y vuelva a intentarlo.</p>
+        <p style="color: red; font-size: 120%;">Este código es inválido. Por favor, corrija los errores y vuelva a intentarlo.</p>
     {% endif %}
 
     <p>

@@ -13,7 +13,7 @@ labels = Path('labels.txt').read_text('utf8').split()
 print('labels:', labels)
 
 OTREE_SERVER = "http://cgr-bid.econ.columbia.edu"
-ROOM_NAME = 'test_room'
+ROOM_NAME = 'cgr_room'
 
 
 def homepage(request: Request):
